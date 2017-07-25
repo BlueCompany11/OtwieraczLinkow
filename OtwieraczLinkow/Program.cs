@@ -10,6 +10,8 @@ namespace OtwieraczLinkow
     {
         static void Main(string[] args)
         {
+            TxtReader useful=TxtReader.ReadTxt();
+            useful.SaveLocalisation();
         }
     }
 }
